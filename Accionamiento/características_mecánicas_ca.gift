@@ -4,7 +4,7 @@ $CATEGORY: $course$/top/Preguntas de Accionamiento/Tema I
 
 $CATEGORY: $course$/top/Preguntas de Accionamiento/Tema I/Características mecánicas del motor de CA
 
-::CMMCA::El momento del motor asincrónico de corriente alterna es:{
+::CMMCA::El momento del motor asincrónico de corriente alterna es{
 	~%33.333333%proporcional al cuadrado de la tensión de alimentación
 	~%33.333333%inversamente proporcional a la velocidad sincrónica
 	~%33.333333%inversamente proporcional a la impedancia equivalente del motor
@@ -13,7 +13,7 @@ $CATEGORY: $course$/top/Preguntas de Accionamiento/Tema I/Características mecá
 	~%-33.333333%proporcional a la impedancia equivalente del motor
 }
 
-::ventajas::El motor asincrónico de jaula de ardilla tiene las siguientes ventajas:{
+::ventajas::El motor asincrónico de jaula de ardilla tiene las siguientes ventajas{
 	~%33.333333%puede ser arrancado directo de línea
 	~%33.333333%es de fácil construcción
 	~%33.333333%requiere poco mantenimiento
@@ -22,7 +22,7 @@ $CATEGORY: $course$/top/Preguntas de Accionamiento/Tema I/Características mecá
 	~%-33.333333%el momento de arranque es de 5 a 8 veces el momento nominal
 }
 
-::posibilidades de control::Al motor asincrónico de jaula de ardilla se le puede variar la velocidad de las formas siguientes:{
+::posibilidades de control::Al motor asincrónico de jaula de ardilla se le puede variar la velocidad de las formas siguientes{
 	~%33.333333%variando amplitud la tensión de alimentación
 	~%33.333333%variando frecuencia la tensión de alimentación
 	~%33.333333%introduciendo resistencias en serie con el estator
