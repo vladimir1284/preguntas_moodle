@@ -1,0 +1,53 @@
+// question: 0  name: Switch category to $course$/top/Preguntas de Accionamiento
+$CATEGORY: $course$/top/Preguntas de Accionamiento
+
+
+// question: 0  name: Switch category to $course$/top/Preguntas de Accionamiento/Tema I
+$CATEGORY: $course$/top/Preguntas de Accionamiento/Tema I
+
+
+// question: 0  name: Switch category to $course$/top/Preguntas de Accionamiento/Tema I/Introducción a los Accionaminetos Eléctricos
+$CATEGORY: $course$/top/Preguntas de Accionamiento/Tema I/Introducción a los Accionaminetos Eléctricos
+
+
+// question: 3  name: Partes que integran un sistema de accionamiento eléctrico automatizado
+::Partes que integran un sistema de accionamiento eléctrico automatizado::[html]<p>Enlace las partes con sus componentes.</p>{
+	=<p></p><p lang\="es-ES">órgano\nejecutor</p><br><p></p> -> Parte mecánica
+	=<p></p><p lang\="es-ES">dispositivo\nde transmisión</p><br><p></p> -> Parte mecánica
+	=<p></p><p lang\="es-ES">destinado\na transmitir la energía mecánica del motor. Varía la velocidad y\nel tipo de movimiento.</p><br><p></p> -> Parte mecánica
+	=<p></p><p lang\="es-ES">destinado\na transformar la energía eléctrica en energía mecánica</p><br><p></p> -> Motor
+	=<p></p><p lang\="es-ES">convertidor</p><br><p></p> -> Sistema de mando
+	=<p></p><p lang\="es-ES">sensores</p><br><p></p> -> Sistema de mando
+	=<p></p><p lang\="es-ES"></p><p lang\="es-ES">recibe\nseñales tanto de la operación del sistema como de la referencia</p><br><p></p> -> Sistema de mando
+	=<p>Acciona el momento electromagnético sobre el eje</p> -> Motor
+	####<img src\="@@PLUGINFILE@@/esquema_general.png?time\=1582565572146" alt\="" width\="1414" height\="439" role\="presentation" class\="img-responsive atto_image_button_text-bottom"><br>
+}
+
+
+// question: 2  name: Componentes
+::Componentes::[html]<p></p><p lang\="es-ES-u-co-trad">¿Cuales don los componentes de un sistema de accionamiento eléctrico?</p><br><p></p>{
+	~%20%<p></p><p lang\="es-ES">motor</p><br><p></p>
+	~%20%<p>convertidor</p>
+	~%20%<p></p><p lang\="es-ES">dispositivos\nde mando</p><br><p></p>
+	~%20%<p></p><p lang\="es-ES">transmisión</p><br><p></p>
+	~%20%<p>órgano de trabajo</p>
+	~%-10%<p>Materias primas</p>
+	~%-10%<p>Productos terminados</p>
+	~%-10%<p>Energía consumida</p>
+	####<p></p><p lang\="es-ES"><span lang\="es-ES-u-co-trad">A</span><span lang\="es-ES-u-co-trad">ccionamiento\neléctrico automatizado, se llama al </span><b>sistema</b><span lang\="es-ES-u-co-trad">\n</span><b>electromecánico </b>compuesto por motor, convertidor,\ndispositivos de mando y transmisión utilizados para la puesta en\nmarcha del órgano de trabajo y el control de su movimiento\n(proceso).</p><br><p></p>
+}
+
+
+// question: 1  name: Utilidad de las accionaminetos eléctricos
+::Utilidad de las accionaminetos eléctricos::[html]<p></p><p lang\="es-ES"><b>¿Para\nque se utilizan los </b><span lang\="es-ES-u-co-trad"><b>accionamientos\neléctricos</b></span><b>? </b>\n</p><br><p></p>{
+	~%25%<p>Aumentar la eficiencia<br></p>
+	~%25%<p>Abaratar la producción<br></p>
+	~%25%<p>Aumentar la productividad<br></p>
+	~%25%<p>Garantizar un régimen de trabajo óptimo.<br></p>
+	~%-10%<p>Capacitar a los trabajadores</p>#<p>Esto no tiene relación con los accionamientos eléctricos</p>
+	~%-10%<p>Adecuar los niveles de tensión</p>#<p>Esto es objetivo de suministros eléctricos</p>
+	~%-10%<p>Programar PLCs</p>#<p>Esto no es una finalidad de los accionaminetos eléctricos</p>
+	####<p></p><p lang\="es-ES" align\="justify">\nLa utilización de <span lang\="es-ES-u-co-trad">accionamientos\neléctricos permite aumentar la eficiencia, abaratar la producción,\naumentar la productividad, garantizar un régimen de trabajo óptimo,\ntanto para las personas como para el producto terminado.</span></p><br><p></p>
+}
+
+

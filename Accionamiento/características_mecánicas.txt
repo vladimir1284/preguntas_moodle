@@ -1,0 +1,139 @@
+$CATEGORY: $course$/top/Preguntas de Accionamiento
+
+$CATEGORY: $course$/top/Preguntas de Accionamiento/Tema I
+
+$CATEGORY: $course$/top/Preguntas de Accionamiento/Tema I/Introducción a los Accionamientos Eléctricos
+
+
+::Clasificación relación con el organo de trabajo::Los sistemas de accionamiento eléctrico se clasifican de acuerdo a la relación entre el motor y el órgano ejecutor en: {
+~%-33.333333%paralelo
+~%-33.333333%regulable
+~%33.333333%grupo
+~%33.333333%individual
+~%33.333333%polimotor
+}
+
+::Clasificación regulacción de velocidad::Los sistemas de accionamiento eléctrico se clasifican de acuerdo a si necesitan o no regulación de velocidad en: {
+~%-33.333333%variable
+~%-33.333333%constante
+~%-33.333333%redutor
+~%50%regulable
+~%50%no regulable
+}
+
+::Momento de la carga::Enlace las propiedades con el tipo de carga resistiva.{
+=Aparece solo como consecuencia del movimiento y constituye una reacción del elemento mecánico al mismo. -> Momento resistivo pasivo
+=Está dirigido siempre en contra del movimiento o sea, siempre tiene un signo contrario al de la velocidad. -> Momento resistivo pasivo
+=Consume energía. -> Momento resistivo pasivo
+=Surge independientemente del movimiento y crea una fuente colateral de energía mecánica. -> Momento resistivo activo
+=La dirección es independiente de la dirección de la velocidad. -> Momento resistivo activo
+=Consume o crea energía. -> Momento resistivo activo
+}
+::Partes que integran un sistema de accionamiento eléctrico automatizado::[html]<p>Enlace las partes con sus componentes.</p>{
+	=<p></p><p lang\="es-ES">órgano\nejecutor</p><br><p></p> -> Parte mecánica
+	=<p></p><p lang\="es-ES">dispositivo\nde transmisión</p><br><p></p> -> Parte mecánica
+	=<p></p><p lang\="es-ES">destinado\na transmitir la energía mecánica del motor. Varía la velocidad y\nel tipo de movimiento.</p><br><p></p> -> Parte mecánica
+	=<p></p><p lang\="es-ES">destinado\na transformar la energía eléctrica en energía mecánica</p><br><p></p> -> Motor
+	=<p></p><p lang\="es-ES">convertidor</p><br><p></p> -> Sistema de mando
+	=<p></p><p lang\="es-ES">sensores</p><br><p></p> -> Sistema de mando
+	=<p></p><p lang\="es-ES"></p><p lang\="es-ES">recibe\nseñales tanto de la operación del sistema como de la referencia</p><br><p></p> -> Sistema de mando
+	=<p>Acciona el momento electromagnético sobre el eje</p> -> Motor
+	####<img src\="@@PLUGINFILE@@/esquema_general.png?time\=1582565572146" alt\="" width\="1414" height\="439" role\="presentation" class\="img-responsive atto_image_button_text-bottom"><br>
+}
+
+::Componentes::[html]<p></p><p lang\="es-ES-u-co-trad">¿Cuales don los componentes de un sistema de accionamiento eléctrico?</p><br><p></p>{
+	~%20%<p></p><p lang\="es-ES">motor</p><br><p></p>
+	~%20%<p>convertidor</p>
+	~%20%<p></p><p lang\="es-ES">dispositivos\nde mando</p><br><p></p>
+	~%20%<p></p><p lang\="es-ES">transmisión</p><br><p></p>
+	~%20%<p>órgano de trabajo</p>
+	~%-10%<p>Materias primas</p>
+	~%-10%<p>Productos terminados</p>
+	~%-10%<p>Energía consumida</p>
+	####<p></p><p lang\="es-ES"><span lang\="es-ES-u-co-trad">A</span><span lang\="es-ES-u-co-trad">ccionamiento\neléctrico automatizado, se llama al </span><b>sistema</b><span lang\="es-ES-u-co-trad">\n</span><b>electromecánico </b>compuesto por motor, convertidor,\ndispositivos de mando y transmisión utilizados para la puesta en\nmarcha del órgano de trabajo y el control de su movimiento\n(proceso).</p><br><p></p>
+}
+
+::Utilidad de las accionaminetos eléctricos::[html]<p></p><p lang\="es-ES"><b>¿Para\nque se utilizan los </b><span lang\="es-ES-u-co-trad"><b>accionamientos\neléctricos</b></span><b>? </b>\n</p><br><p></p>{
+	~%25%<p>Aumentar la eficiencia<br></p>
+	~%25%<p>Abaratar la producción<br></p>
+	~%25%<p>Aumentar la productividad<br></p>
+	~%25%<p>Garantizar un régimen de trabajo óptimo.<br></p>
+	~%-10%<p>Capacitar a los trabajadores</p>#<p>Esto no tiene relación con los accionamientos eléctricos</p>
+	~%-10%<p>Adecuar los niveles de tensión</p>#<p>Esto es objetivo de suministros eléctricos</p>
+	~%-10%<p>Programar PLCs</p>#<p>Esto no es una finalidad de los accionaminetos eléctricos</p>
+	####<p></p><p lang\="es-ES" align\="justify">\nLa utilización de <span lang\="es-ES-u-co-trad">accionamientos\neléctricos permite aumentar la eficiencia, abaratar la producción,\naumentar la productividad, garantizar un régimen de trabajo óptimo,\ntanto para las personas como para el producto terminado.</span></p><br><p></p>
+}
+
+El momento dinámico es resultante de la suma (o  resta) los momentos del motor y de la carga. {T}
+
+En el régimen estacionario el momento dinámico es 0. {T}
+
+El momento dinámico siempre tiene el signo del momento motor  {F}
+
+El momento dinámico siempre tiene el signo del momento de la carga  {F}
+
+El momento de la carga siempre se opone al momento del motor {F}
+
+El momento del motor siempre va en el sentido de la velocidad de giro de la carga {F}
+
+En el régimen dinámico siempre es 0 la aceleración {F}
+
+En el régimen dinámico la velocidad no puede ser 0 {F}
+
+En el régimen estacionario siempre es 0 la velocidad {F}
+
+En el régimen estacionario siempre es 0 la aceleración {T}
+
+El momento dinámico es equivalente al producto del momento de inercia del sistema por la aceleración angular {T}
+
+El sentido positivo de la velocidad y el momento siempre coincide con el movimiento de las manecillas de reloj {F}
+
+::Cuadrantes de operación::Enlace los cuadrantes con los regímenes de operación de los sistemas de accionamiento eléctrico.{
+=Cuadrante I -> Régimen motor
+=Cuadrante III -> Régimen motor
+=Cuadrante II -> Régimen generador
+=Cuadrante IV -> Régimen generador
+}
+
+::Flujo de energía::Relacione los siguientes regímenes de operación con su flujo de energía.{
+=Régimen motor -> Red > Motor > Carga
+=Frenado regenarativo -> Carga > Motor > Red
+=Frenado por contra corriente -> Carga > Motor < Red
+=Frenado dinámico -> Carga > Motor
+}
+
+En el frenado por contracorriente la energía se disipa solamente en el motor. {T}
+
+En el frenado dinámico la energía se disipa en el motor. {T}
+
+En el frenado dinámico la energía se devuelve a la red. {F}
+
+En el frenado regenerativo la energía se devuelve a la red. {T}
+
+En el frenado por contracorriente se consume energía de la red. {T}
+
+En el frenado dinámico se consume energía de la red. {F}
+
+En el frenado regenerativo se consume energía de la red. {F}
+
+En régimen motor la velocidad y el momento del motor coinciden en su sentido. {T}
+
+En régimen generador la velocidad y el momento del motor coinciden en su sentido. {F}
+
+La velocidad del motor puede cambiar significativamente de forma instantánea. {F}
+
+El motor opera en régimen generador en los cuadrantes I y III. {F}
+
+El motor opera en régimen generador en los cuadrantes II y VI. {T}
+
+::Característica de los mecanismos::Relacione los siguientes mecanismos con su tipo de característica mecánica.{
+=Este tipo de característica la poseen las grúas -> Momento constante
+=Este tipo de característica la poseen los mecanismos de entrega de los tornos -> Momento constante
+=Este tipo de característica la poseen los transportadores para una masa fija de material movido -> Momento constante
+=Este tipo de característica corresponde al accionamiento de  un generador de corriente directa con excitación independiente y  carga resistiva constante -> Lineal creciente
+=Este tipo de característica corresponde a los ventiladores  -> No lineal creciente (cuadrática)
+=Este tipo de característica corresponde a las bombas centrífugas  -> No lineal creciente (cuadrática)
+=Este tipo de característica se corresponde con las de las máquinas herramientas  -> No lineal descendente (hiperbólica, potencia constante)
+=Este tipo de característica se corresponde con las de las máquinas bobinadoras  -> No lineal descendente (hiperbólica, potencia constante)
+}
+

@@ -1,0 +1,121 @@
+﻿$CATEGORY: $course$/top/Preguntas de Accionamiento
+
+$CATEGORY: $course$/top/Preguntas de Accionamiento/Tema I
+
+$CATEGORY: $course$/top/Preguntas de Accionamiento/Tema I/Características mecánicas del motor de CD
+
+::CMN::La característica mecánica natural: es la que se obtiene cuando el motor:{
+	~%33.333333%es alimentado con la tensión nominal
+	~%33.333333%el flujo de excitación es el nominal
+	~%33.333333%la única resistencia conectada a la armadura es la resistencia interna del motor
+	~%-33.333333%la carga es nominal
+	~%-33.333333%la corriente del motor es nominal
+	~%-33.333333%la velocidad y el momento tienen el mismo sentido
+	####La característica mecánica natural: es la que se obtiene cuando el motor es alimentado con la tensión nominal, el flujo de excitación es el nominal y la única resistencia conectada a la armadura es la resistencia interna del motor.
+}
+
+::Momento de arranque::El punto de intersección de las características mecánicas y de velocidad con el eje de las abscisas representa la corriente o momento{
+	~%50%de cortocircuito
+	~%50%de arranque
+	~%-33.333333%de carga
+	~%-33.333333%de vacío
+	~%-33.333333%sincrónico
+}
+
+::Rigidez::La rigidez del motor de corriente directa con excitación independiente es{
+	~%50%proporcional al flujo de la máquina
+	~%50%inversamente proporcional a la resistencia de armadura
+	~%-33.333333%negativa
+	~%-33.333333%independiente de la resistencia de armadura
+	~%-33.333333%proporcional a la corriente de armadura
+}
+
+::Corriente de arranque::Para disminuir la corriente de arranque del motor de corriente directa con excitación independiente se puede{
+	~%50%disminuir la tensión de alimentación
+	~%50%introducir resistencias adicionales en el circuito de armadura
+	~%-33.333333%aumentar el flujo de la máquina
+	~%-33.333333%disminuir el flujo de la máquina
+	~%-33.333333%desconectar la carga del eje
+}
+
+::Régimen motor::En el régimen motor{
+	~%50%el momento motor se encuentra en el mismo sentido de la velocidad
+	~%50%el cuadrante de operación es el I o el III
+	~%-33.333333%el cuadrante de operación es el II o el IV
+	~%-33.333333%la carga arrastra al motor
+	~%-33.333333%la la velocidad es mayor que la de vacío
+}
+
+::Régimen permanente::El régimen permanente se caracteriza por{
+	~%33.333333%El equilibrio entre los momentos motor y de carga. Mm=Mc.
+	~%33.333333%La ausencia de momento dinámico porque la velocidad se estabiliza: Mdin=0.
+	~%33.333333%La corriente que consume el motor depende del valor de la carga, a él, acoplada.
+	~%-50%El momento dinámico es positivo. Mdin>0.
+	~%-50%El momento del motor es mayor que el de la carga. Mm>Mc.
+}
+
+::Frenado regenerativo MCDES::El frenado regenerativo no puede obtenerse para el{
+	~%100%Motor de corriente directa con excitación serie.
+	~%-33.333333%Motor de corriente directa con excitación independiente.
+	~%-33.333333%Motor de corriente directa con excitación compuesta.
+	~%-33.333333%Motor asincrónico de jaula de ardilla.
+	~%-33.333333%Motor asincrónico de rotor bobinado.
+}
+
+::Frenado dinámico MCDES::El  frenado dinámico se obtiene con auto-excitación o con excitación independiente para el{
+	~%100%Motor de corriente directa con excitación serie.
+	~%-33.333333%Motor de corriente directa con excitación independiente.
+	~%-33.333333%Motor de corriente directa con excitación compuesta.
+	~%-33.333333%Motor asincrónico de jaula de ardilla.
+	~%-33.333333%Motor asincrónico de rotor bobinado.
+}
+
+::Frenado regenerativo MCDEC:: En el frenado regenerativo se cortocircuita el devanado de excitación serie para evitar su desmagnetización para el{
+	~%100%Motor de corriente directa con excitación compuesta.
+	~%-33.333333%Motor de corriente directa con excitación independiente.
+	~%-33.333333%Motor de corriente directa con excitación serie.
+	~%-33.333333%Motor asincrónico de jaula de ardilla.
+	~%-33.333333%Motor asincrónico de rotor bobinado.
+}
+
+Cualquier característica mecánica que no sea la natural se conoce como artificial. {T}
+
+La corriente de arranque del motor de corriente directa con excitación independiente es proporcional a la carga conectada en el eje {F}
+
+Una de las bondades del motor de corriente directa con excitación independiente es que puede ser arrancado directo de línea {F}
+
+La corriente de arranque del motor de corriente directa con excitación independiente es proporcional a la tensión de armadura {T}
+
+La corriente de arranque del motor de corriente directa con excitación independiente se puede reducir aumentando el flujo de la máquina {F}
+
+Los únicos factores que inciden sobre la corriente de arranque del motor de corriente directa con excitación independiente son la tensión de alimentación y la resistencia de armadura {T}
+
+El momento de arranque del motor de corriente directa con excitación independiente no depende la carga conectada en el eje {T}
+
+Nunca se debe arrancar un motor de corriente directa con excitación independiente directo de la tensión nominal {T}
+
+El momento de arranque del motor de corriente directa con excitación independiente es inversamente proporcional a la resistencia del circuito de armadura {T}
+
+La característica de velocidad del motor de corriente directa con excitación independiente tiene forma hiperbólica {F}
+
+La característica de velocidad del motor de corriente directa con excitación serie tiene forma hiperbólica {T}
+
+En el motor de corriente directa con excitación serie existe una dependencia entre el flujo del motor y su corriente de armadura {T}
+
+En el motor de corriente directa con excitación serie no puede arrancarse en vacío {T}
+
+En el motor de corriente directa con excitación independiente no puede arrancarse en vacío {F}
+
+En el motor de corriente directa con excitación compuesta no puede obtenerse el frenado regenerativo {F}
+
+::directo de línea::Enlace los efectos de una gran corriente en el devanado de armadura del motor de corriente directa con excitación independiente con el elemento donde se manifiestan.{
+=las escobillas -> las excesivas densidades de corriente
+=los devanados -> los grandes esfuerzos electrodinámicos
+=el eje -> los grandes momentos producidos
+}
+
+::Frenado::Enlace los regímenes de frenado del motor de corriente directa con excitación independiente con su descripción.{
+=La corriente cambia de signo puesto que la FEM del motor supera a la tensión de alimentación. -> Frenado regenerativo	
+=La tensión de alimentación produce un momento contrario al sentido de giro del motor. -> Frenado por contracorriente
+=La armadura del motor se cortocircuita a través de una resistencia independiente de la red -> Frenado dinámico
+}

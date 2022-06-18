@@ -1,0 +1,61 @@
+﻿$CATEGORY: $course$/top/Preguntas de Accionamiento
+
+$CATEGORY: $course$/top/Preguntas de Accionamiento/Tema I
+
+$CATEGORY: $course$/top/Preguntas de Accionamiento/Tema I/Características mecánicas del motor de CA
+
+::CMMCA::El momento del motor asincrónico de corriente alterna es:{
+	~%33.333333%proporcional al cuadrado de la tensión de alimentación
+	~%33.333333%inversamente proporcional a la velocidad sincrónica
+	~%33.333333%inversamente proporcional a la impedancia equivalente del motor
+	~%-33.333333%independiente de la carga mecánica
+	~%-33.333333%siempre mayor que el momento de la carga
+	~%-33.333333%proporcional a la impedancia equivalente del motor
+}
+
+::ventajas::El motor asincrónico de jaula de ardilla tiene las siguientes ventajas:{
+	~%33.333333%puede ser arrancado directo de línea
+	~%33.333333%es de fácil construcción
+	~%33.333333%requiere poco mantenimiento
+	~%-33.333333%se puede arrancar con resistencias en el rotor
+	~%-33.333333%se le puede variar la velocidad de forma sencilla
+	~%-33.333333%el momento de arranque es de 5 a 8 veces el momento nominal
+}
+
+::posibilidades de control::Al motor asincrónico de jaula de ardilla se le puede variar la velocidad de las formas siguientes:{
+	~%33.333333%variando amplitud la tensión de alimentación
+	~%33.333333%variando frecuencia la tensión de alimentación
+	~%33.333333%introduciendo resistencias en serie con el estator
+	~%-33.333333%introduciendo resistencias en el rotor
+	~%-33.333333%con un convertidor CA-CD
+	~%-33.333333%variando el deslizamiento
+}
+
+El momento crítico generador es mayor que el momento crítico motor en el  motor asincrónico de corriente alterna {T}
+
+Introducir resistencias en el rotor reduce el momento crítico del  motor asincrónico de corriente alterna {F}
+
+Introducir resistencias en serie con el estator reduce el momento crítico del  motor asincrónico de corriente alterna {T}
+
+Reducir la tensión de alimentación reduce el momento crítico del  motor asincrónico de corriente alterna {T}
+
+Aumentar la frecuencia de la tensión de alimentación reduce el momento crítico del  motor asincrónico de corriente alterna {T}
+
+El deslizamiento crítico del  motor asincrónico de corriente alterna depende solamente de la impedancia equivalente del motor {T}
+
+Las resistencias y reactancias del motor asincrónico de corriente alterna son datos que aparecen normalmente en catálogo {F}
+
+::aproximaciones::Enlace las siguientes aproximaciones de la característica mecánica del motor asincrónico de corriente alterna con sus zonas de aplicación.{
+=fórmula de Klose -> Máquinas muy grandes
+=Comportamiento lineal-> valores pequeños del deslizamiento
+=Comportamiento hiperbólico -> valores grandes del deslizamiento
+}
+
+::regímenes de trabajo::Enlace los siguientes regímenes de trabajo con el valor del deslizamiento.{
+=arranque -> S igual a 1
+=motor-> 0<S<1
+=frenado contracorriente -> S>1
+=frenado regenerativo -> S<0
+=vacío -> S igual a 0
+}
+

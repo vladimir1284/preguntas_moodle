@@ -1,0 +1,93 @@
+﻿$CATEGORY: $course$/top/Preguntas de Accionamiento
+
+$CATEGORY: $course$/top/Preguntas de Accionamiento/Tema I
+
+$CATEGORY: $course$/top/Preguntas de Accionamiento/Tema I/Métodos de control de velocidad en accionamientos eléctricos de corriente directa
+
+::control de velocidad::El Control de velocidad es:{
+	~%50%variación dirigida de la velocidad del accionamiento eléctrico
+	~%50%ejecutado en dependencia de las exigencias del proceso tecnológico
+	~%-50%variación natural de la velocidad que tiene lugar en el accionamiento eléctrico
+	~%-50%variación de la velocidad debida a cambios de la carga en el eje del motor
+	####Variación dirigida de la velocidad del accionamiento eléctrico ejecutada en dependencia de las exigencias del proceso tecnológico y nunca debe confundirse con la variación natural de la velocidad que tiene lugar en el accionamiento eléctrico, por ejemplo, al variar la carga en el eje del motor.
+}
+
+::Diapasón::Indicador estacionario de regulación que se determina dividiendo la velocidad máxima de operación entre la velocidad mínima:{
+	=Diapasón
+	~Gradación
+	~Factibilidad Económica
+	~Estabilidad
+	~Dirección del control
+	~Carga permisible	
+}
+
+::Gradación::Indicador estacionario de regulación que indica la cantidad de velocidades estables de operación del método:{
+	~Diapasón
+	=Gradación
+	~Factibilidad Económica
+	~Estabilidad
+	~Dirección del control
+	~Carga permisible	
+}
+
+::Factibilidad Económica::Indicador estacionario de regulación que caracteriza los gastos en la creación y explotación del accionamiento eléctrico:{
+	~Diapasón
+	~Gradación
+	=Factibilidad Económica
+	~Estabilidad
+	~Dirección del control
+	~Carga permisible	
+}
+
+::Estabilidad::Indicador estacionario de regulación que se caracteriza por la variación de velocidad experimentada por el accionamiento eléctrico al sufrir una variación en la carga mecánica:{
+	~Diapasón
+	~Gradación
+	~Factibilidad Económica
+	=Estabilidad
+	~Dirección del control
+	~Carga permisible	
+}
+
+::Dirección del control::Indicador estacionario de regulación que se define como la variación de la velocidad con respecto a su velocidad básica:{
+	~Diapasón
+	~Gradación
+	~Factibilidad Económica
+	~Estabilidad
+	=Dirección del control
+	~Carga permisible	
+}
+
+::Carga permisible::Indicador estacionario de regulación que se define como el máximo valor de momento que el accionamiento puede desarrollar continuamente trabajando en sus diferentes características y está determinado por su calentamiento:{
+	~Diapasón
+	~Gradación
+	~Factibilidad Económica
+	~Estabilidad
+	~Dirección del control
+	=Carga permisible	
+}
+
+::Rigidez::La rigidez de la característica mecánica se relaciona directamente con el siguiente indicador estacionario de regulación:{
+	~Diapasón
+	~Gradación
+	~Factibilidad Económica
+	=Estabilidad
+	~Dirección del control
+	~Carga permisible	
+}
+
+::Económico::Será económico aquel sistema de accionamiento eléctrico que garantice:{
+	~%20%Alta productividad
+	~%20%Alta calidad de proceso tecnológico
+	~%20%Recuperación rápida de la inversión inicial
+	~%20%Una alta eficiencia energética
+	~%20%Un buen factor de potencia
+}
+
+::Posibilidades de Control::La variación de la velocidad con respecto a parámetros nominales se puede lograr por las siguientes vías:{
+	~%33.333333%Aumento de la resistencia de armadura con resistencias adicionales.
+	~%33.333333%Disminuyendo el flujo.
+	~%33.333333%Disminución del voltaje aplicado. 
+	~%-33.333333%Disminución de la resistencia de armadura.# Esto es físicamente imposible
+	~%-33.333333%Aumentando el flujo.#Esto es muy difícil pues se satura el hierro
+	~%-33.333333%Aumento del voltaje aplicado.#Esto dañaría el aislamiento
+}
