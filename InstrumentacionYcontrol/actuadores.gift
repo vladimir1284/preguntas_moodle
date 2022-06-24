@@ -2,7 +2,7 @@ $CATEGORY: $course$/top/Preguntas de Instrumentación y Control
 
 $CATEGORY: $course$/top/Preguntas de Instrumentación y Control/Tema I
 
-$CATEGORY: $course$/top/Preguntas de Instrumentación y Control/Tema I/Actuadoes
+$CATEGORY: $course$/top/Preguntas de Instrumentación y Control/Tema I/Actuadores
 
 ::Clasificación por tipo de movimiento::Según el tipo de movimiento mecánico que provocan, los actuadores se clasifican en{
 	~%50%lineales
@@ -71,6 +71,46 @@ $CATEGORY: $course$/top/Preguntas de Instrumentación y Control/Tema I/Actuadoes
 	~%-50%Compound#Leer epígrafe 1.3.3 del libro de texto
 }
 
+::Motores de corriente directa::Los motores de corriente directa pueden ser{
+	~%20%De imán permanente
+	~%20%Con el rotor y el estator bobinados
+	~%20%Motores serie
+	~%20%Motores Shunt (con excitación independiente o paralela)
+	~%20%Motores Compound
+	~%-50%De jaula de ardilla#Leer epígrafe 1.3.4 del libro de texto
+	~%-50%Con anillos deslizantes#Leer epígrafe 1.3.4 del libro de texto
+}
+
+::Motores de corriente alterna::En los motores de corriente alterna{
+	~%25%Se crea un campo magnético giratorio
+	~%25%A medida que aumentan los polos la velocidad del motor disminuye
+	~%25%El campo magnético giratorio del estator induce una corriente en el rotor
+	~%25%La corriente inducida en el devanado del rotor interactúa con el campo magnético del 
+        estator para crear un par de fuerzas
+	~%-50%El devanado de excitación puede conectarse en serie o en 
+        paralelo#Leer epígrafe 1.3.4.1 del libro de texto
+	~%-50%Se mueven un paso a la vez#Leer epígrafe 1.3.4.1 del libro de texto
+}
+
+::Motores monofásicos::Los motores monofásicos de corriente alterna pueden ser{
+	~%20%Standard   
+	~%20%De capacitor permanente
+	~%20%De arranque por capacitor
+	~%20%De polo sombreado
+	~%20%Serie universal
+	~%-50%Con arranque por pasos de resistencia#Leer epígrafe 1.3.4.2 del libro de texto
+	~%-50%De imán permanente#Leer epígrafe 1.3.4.2 del libro de texto
+}
+
+::Motores de paso::Los motores de paso{
+	~%25%Son diseñados para posicionadores
+	~%25%Se mueven un paso a la vez
+	~%25%Son unipolares si emplean devanados con derivación central
+	~%25%Son bipolares si requieren una alimentación positiva y negativa
+	~%-50%Crean un campo magnético rotatorio en el estator#Leer epígrafe 1.3.4.3 del libro de texto
+	~%-50%Se emplean en aplicaciones de alta velocidad#Leer epígrafe 1.3.4.3 del libro de texto
+}
+
 Es preferible utilizar actuadores discretos para reducir costo y complejidad {T#Leer epígrafe 1.3.1 del libro de texto}
 
 Los actuadores discretos permiten ajustar la posición en un amplio rango de valores {F#Leer epígrafe 1.3.1 del libro de texto}
@@ -86,3 +126,33 @@ suministro{T#Leer epígrafe 1.3.4 del libro de texto}
 
 Los motores de corriente directa giran con velocidad relativamente constante proporcional a la frecuencia de la fuente de 
 suministro{F#Leer epígrafe 1.3.4 del libro de texto}
+
+Los motores de corriente directa, poseen amplios rangos de velocidad y par{T#Leer epígrafe 1.3.4 del libro de texto}
+
+Los motores de corriente alterna, poseen amplios rangos de velocidad y par{F#Leer epígrafe 1.3.4 del libro de texto}
+
+Los motores de inducción giran a una velocidad ligeramente inferior a la velocidad de rotación del campo magnético 
+y esta diferencia de velocidad es conocida como deslizamiento{T#Leer epígrafe 1.3.4.1 del libro de texto}
+
+Los motores de corriente directa giran a una velocidad ligeramente inferior a la velocidad de rotación del campo 
+magnético y esta diferencia de velocidad es conocida como deslizamiento{F#Leer epígrafe 1.3.4.1 del libro de texto}
+
+Los motores sincrónicos se diferencian de los motores de inducción en que están diseñados para trabajar a velocidad 
+constante igual a la sincrónica{T#Leer epígrafe 1.3.4.1 del libro de texto}
+
+Los motores de corriente directa se diferencian de los motores de inducción en que están diseñados para trabajar a 
+velocidad constante igual a la sincrónica{F#Leer epígrafe 1.3.4.1 del libro de texto}
+
+En los motores serie, cuando la carga disminuye, la velocidad se incrementa pudiendo alcanzar velocidades 
+peligrosas si el motor se encuentra en vacío por lo que no se recomienda en aplicaciones donde se encuentre 
+con muy baja carga{T#Leer epígrafe 1.3.4.2 del libro de texto}
+
+En los motores shunt, cuando la carga disminuye, la velocidad se incrementa pudiendo alcanzar velocidades 
+peligrosas si el motor se encuentra en vacío por lo que no se recomienda en aplicaciones donde se encuentre 
+con muy baja carga{T#Leer epígrafe 1.3.4.2 del libro de texto}
+
+El motor compound es un motor shunt con un devanado serie adicional{T#Leer epígrafe 1.3.4.2 del libro de texto}
+
+El motor serie es un motor shunt con un devanado serie adicional{F#Leer epígrafe 1.3.4.2 del libro de texto}
+
+Los motores de pasos normalmente no requieren retroalimentación{T#Leer epígrafe 1.3.4.3 del libro de texto}
