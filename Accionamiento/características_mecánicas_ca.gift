@@ -6,7 +6,7 @@ $CATEGORY: $course$/top/Preguntas de Accionamiento/Tema I/Características mecá
 
 ::CMMCA::El momento del motor asincrónico de corriente alterna es{
 	~%33.333333%proporcional al cuadrado de la tensión de alimentación
-	~%33.333333%inversamente proporcional a la velocidad sincrónica
+	~%33.333333%inversamente proporcionald a la velocidad sincrónica
 	~%33.333333%inversamente proporcional a la impedancia equivalente del motor
 	~%-33.333333%independiente de la carga mecánica
 	~%-33.333333%siempre mayor que el momento de la carga

@@ -62,6 +62,15 @@ $CATEGORY: $course$/top/Preguntas de Instrumentación y Control/Tema I/Actuadoes
 	~%-50%Acumulador#Leer epígrafe 1.3.3 del libro de texto
 }
 
+::Motores de corriente alterna::Los motores de corriente alterna pueden ser{
+	~%25%Motores de inducción
+	~%25%Motores sincrónicos
+	~%25%Tipo jaula de ardilla
+	~%25%Rotor bobinado
+	~%-50%Shunt#Leer epígrafe 1.3.3 del libro de texto
+	~%-50%Compound#Leer epígrafe 1.3.3 del libro de texto
+}
+
 Es preferible utilizar actuadores discretos para reducir costo y complejidad {T#Leer epígrafe 1.3.1 del libro de texto}
 
 Los actuadores discretos permiten ajustar la posición en un amplio rango de valores {F#Leer epígrafe 1.3.1 del libro de texto}
@@ -71,3 +80,9 @@ evitándose la abrasión en diversos componentes del sistema y la reducción de 
 
 El empleo del acumulador es de suma importancia para eliminar del sistema los pequeños contaminantes que pueda contener el fluido 
 evitándose la abrasión en diversos componentes del sistema y la reducción de su vida útil{F#Leer epígrafe 1.3.3 del libro de texto}
+
+Los motores de corriente alterna giran con velocidad relativamente constante proporcional a la frecuencia de la fuente de 
+suministro{T#Leer epígrafe 1.3.4 del libro de texto}
+
+Los motores de corriente directa giran con velocidad relativamente constante proporcional a la frecuencia de la fuente de 
+suministro{F#Leer epígrafe 1.3.4 del libro de texto}
